@@ -170,7 +170,7 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box tech-stack" data-aos="zoom-in-left" data-aos-delay="400">
               <div class="icon"><img src="assets/img/tech-stack/node_exporter.png" width="80"></div>
-              <h4 class="title"><a href="">Node Exporter</a></h4>
+              <h4 class="title"><a href="https://github.com/prometheus/node_exporter" target="_blank">Node Exporter</a></h4>
               <p class="description">Node Exporter ist ein Exportprogramm, welches ermöglicht in der Linux Umgebung mit Prometheus die gewünschten Metriken auszulesen und zu überwachen. Es liefert die Daten an die Prometheus Datenbank, von wo die Metriken dann mittels Grafana visualisiert werden können.</p>
             </div>
           </div>
@@ -234,7 +234,7 @@
             <div class="portfolio-info">
               <h4>AWS</h4>
               <p>Overview Instances</p>
-              <a href="assets/img/portfolio/InstancesOnline.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Grafana-Grossbild"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/InstancesOnline.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Overview Instances"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
@@ -243,7 +243,7 @@
             <div class="portfolio-info">
               <h4>Github</h4>
               <p>OpenAPM</p>
-              <a href="assets/img/portfolio/github_picture.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Grafana-Grossbild"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/github_picture.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="OpenAPM"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
@@ -252,7 +252,7 @@
             <div class="portfolio-info">
               <h4>Terraform Script</h4>
               <p>Default Variables</p>
-              <a href="assets/img/portfolio/variables.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Grafana-Grossbild"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/variables.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Default Variables"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
@@ -261,7 +261,7 @@
             <div class="portfolio-info">
               <h4>Grafana</h4>
               <p>Dashboard</p>
-              <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Grafana-Grossbild"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dashboard"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
@@ -273,17 +273,16 @@
               <a href="assets/img/portfolio/nodeMetrics.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Grafana-Grossbild"><i class="bx bx-plus"></i></a>
             </div>
           </div>
-        </div>
 
-<!--        <div class="col-lg-4 col-md-6 portfolio-item">
-          <div class="portfolio-img"><img src="assets/img/portfolio/Targets.png" class="img-fluid" alt=""></div>
+       <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-img"><img src="assets/img/portfolio/targets1.png" class="img-fluid" alt=""></div>
           <div class="portfolio-info">
             <h4>Prometheus</h4>
             <p>Targets</p>
-            <a href="assets/img/portfolio/Targets.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Grafana-Grossbild"><i class="bx bx-plus"></i></a>
+            <a href="assets/img/portfolio/targets1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Metrics"><i class="bx bx-plus"></i></a>
           </div>
         </div>
-      </div>-->
+      </div>
 
       </div>
     </section><!-- End Ergebnisse Section -->
@@ -321,22 +320,28 @@
           </li>
 
           <li>
-            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Welche AWS Services habt ihr in eurem Projekt benutzt? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Welche AWS Services haben wir in unserem Projekt benutzt? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq3" class="collapse" data-bs-parent=".faq-list">
               <p>
-
+              <ol>
+                <li>Amazon Machine: Ubuntu Server 20.04</li>
+                <li>Amazon Machine Images: ami-0a49b025fffbbdac6</li>
+                <li>Region: Frankfurt (eu-central-1)</li>
+               <li>AWS Instance type: t3.micro</li>
+               <li>Ports: 3000, 9090, 22, 9100</li>
+              </ol>
               </p>
             </div>
           </li>
 
-<!--          <li>
-            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Prometheus vs InfluxDB <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Was genau ist APM? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq4" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                Application Performance Monitoring (APM) ist der Prozess, die Leistung einer Anwendung zu überwachen, zu verwalten und auf dem neuesten Stand zu halten. APM umfasst die Überwachung sowohl der technischen Leistung der Anwendung, als auch der von den Nutzern wahrgenommenen Leistung. Da die heutigen Anwendungen auf einer hochgradig verteilten Infrastruktur laufen, sind alle ihre Komponenten in ständigem Fluss und sehr komplex zu überwachen. Daher muss eine nützliche APM-Software über alle kritischen Teile einer Anwendung schauen, um die Fehlerbehebung zu erleichtern und die Leistung der Anwendung zu verwalten.
               </p>
             </div>
-          </li>-->
+          </li>
 
           <li>
             <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Warum haben wir uns für Grafana und Prometheus entschieden? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
